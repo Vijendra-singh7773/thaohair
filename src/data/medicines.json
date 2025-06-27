@@ -1,0 +1,6 @@
+[
+  { "name": "PARACETAMOL", "info": "Pain reliever and fever reducer." },
+  { "name": "CETRIZINE", "info": "Used for allergies and sneezing." },
+  { "name": "AMOXICILLIN", "info": "Antibiotic used for bacterial infections." },
+   { "name": "pantoprazole", "info": "Pantoprazole is a proton pump inhibitor (PPI) used to reduce stomach acid production, commonly prescribed for conditions like gastroesophageal reflux disease (GERD) and erosive esophagitis." }
+]
