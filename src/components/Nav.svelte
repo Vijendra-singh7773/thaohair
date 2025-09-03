@@ -33,14 +33,12 @@
 <header class="bg-[#f9f8f8] shadow-md sticky top-0 z-50">
   <nav class="container mx-auto px-4 sm:px-6 lg:px-8 flex items-center justify-between py-4">
     
-    <!-- Left: Logo -->
-  <h1 class="text-4xl font-bold text-blue-600">
-  ✂️ Thao<span class="text-orange-500">Haircut</span>
-</h1>
+   <!-- Left: Logo -->
+  <img src="/logo.png" alt="Laptop Sale" class="w-40" />
    <div class="hidden md:flex space-x-6 items-center">
       <a href="/" class="hover:text-blue-500">Home</a>
-      <a href="/slot" target="_blank" class="hover:text-blue-500">Book a Slot</a>
-      <a href="/my-bookings" class="hover:text-blue-500">My Bookings</a>
+      <a href="/slot" target="_blank" class="hover:text-blue-500">Destinations</a>
+   
       <a href="/about" class="hover:text-blue-500">About</a>
       <a href="/nearby"    target="_blank"  class="hover:text-blue-500">Contact</a>
    </div>
@@ -93,12 +91,10 @@
         <div class="mt-4 border-t pt-4 space-y-2">
           <a href="/" class="block ">Home</a>
       
-          <a href="/saved-movers" class="block ">My Profile</a>
-          <a href="/settings" class="block ">Settings</a>
-                <a href="/settings" class="block ">About</a>
-                     <a href="/settings" class="block ">Notifications</a>
-                          <a href="/settings" class="block "> My Bookings</a>
-                            <a href="/settings" class="block "> Book a Slot</a>
+              
+                  
+                          <a href="/settings" class="block "> Destinations</a>
+                             <a href="/settings" class="block ">About</a>
                               <a href="/settings" class="block "> Contact</a>
     
           <button on:click={logout} class="block text-left w-full ">Logout</button>
